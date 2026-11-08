@@ -247,7 +247,7 @@ def init_slidebar():
       )
       
       st.sidebar.button(
-          "🗑 Xóa lịch sử chat",
+          "Xóa lịch sử chat",
           on_click=clear_chat_history,
           key="sidebar_clear_chat_history",
       )
